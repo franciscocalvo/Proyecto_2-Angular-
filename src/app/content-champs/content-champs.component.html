@@ -1,0 +1,12 @@
+<!--- <img [src]="imagenCampeon"> --->
+<app-header></app-header>
+<h2>{{nombre}}</h2>
+<p (click)="obtenerInformacion()">Historia</p>
+<div  *ngIf="historiaCampeon.length > 2" class="Historia">
+ <p>{{historiaCampeon}}></p>  
+</div>
+
+<p (click)="obtenerAlytips()">Consejos</p>
+<div *ngIf="pistasAliados.length > 2" class="Historia">
+    <p *ngFor="let pista of pistasAliados">{{pista}}</p>
+</div>

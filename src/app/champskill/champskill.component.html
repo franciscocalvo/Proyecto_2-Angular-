@@ -1,0 +1,25 @@
+<app-header></app-header>
+<h2>{{nombre_champ}}</h2>
+<p (click)="asignacionHabilidades()">Obtener Habilidades: {{nombre_Q}}</p>
+<div *ngIf="asignacion == true">
+    <div class="habilidades">
+        <p>Nombre: {{nombre_Q}}</p>
+        <p>{{habilidad_Q}}</p>
+        <p>Tiempo de reutilización en segundos: {{reutilizacion_Q}}</p>
+    </div>
+    <div class="habilidades">
+        <p>Nombre: {{nombre_W}}</p>
+        <p>{{habilidad_Q}}</p>
+        <p>Tiempo de reutilización en segundos: {{reutilizacion_W}}</p>
+    </div>
+    <div class="habilidades">
+        <p>Nombre: {{nombre_E}}</p>
+        <p>{{habilidad_Q}}</p>
+        <p>Tiempo de reutilización en segundos: {{reutilizacion_E}}</p>
+    </div>
+    <div class="habilidades">
+        <p>Nombre: {{nombre_R}}</p>
+        <p>{{habilidad_Q}}</p>
+        <p>Tiempo de reutilización en segundos: {{reutilizacion_R}}</p>
+    </div>
+</div>

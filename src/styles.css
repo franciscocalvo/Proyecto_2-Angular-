@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: url("./assets/Imagenes/fondo_body.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
